@@ -1,12 +1,11 @@
 package net.Axie.TurtorialMod;
 
 import com.mojang.logging.LogUtils;
-import net.Axie.TurtorialMod.Creative_Mode_Tabs.ModCreativeModeTabs;
+import net.Axie.TurtorialMod.CreativeModeTabs.ModCreativeModeTabs;
 import net.Axie.TurtorialMod.Item.ModItems;
 import net.Axie.TurtorialMod.block.ModBlocks;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.common.CreativeModeTabRegistry;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -36,6 +35,7 @@ public class Axie
         MinecraftForge.EVENT_BUS.register(this);
 
         ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
