@@ -1,3 +1,8 @@
 {
-  "item.Axie.enderite": "Enderite Scraps"
+  "item.axie_28387.enderite": "Enderite Scrap",
+  "item.axie_28387.enderite_ingot": "Enderite Ingot",
+
+  "block.axie_28387.enderite_block": "Dragon Debris",
+  "block.axie_28387.enderite_ingot_block": "Enderite Block",
+  "creativetab.TurtoiralMod.Enderite.Machines": ""
 }

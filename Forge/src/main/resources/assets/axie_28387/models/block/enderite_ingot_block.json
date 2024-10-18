@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "axie_28387:block/enderite_ingot_block"
+  }
+}

@@ -1,7 +1,9 @@
 package net.Axie.TurtorialMod;
 
 import com.mojang.logging.LogUtils;
+import net.Axie.TurtorialMod.Creative_Mode_Tabs.ModCreativeModeTabs;
 import net.Axie.TurtorialMod.Item.ModItems;
+import net.Axie.TurtorialMod.block.ModBlocks;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.CreativeModeTabRegistry;
@@ -33,7 +35,9 @@ public class Axie
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -49,6 +53,13 @@ public class Axie
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
     if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
         event.accept(ModItems.ENDERITE);
+        event.accept(ModItems.ENDERITE_INGOT);
+    }
+    if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+        event.accept(ModBlocks.ENDERITE_BLOCK);
+    }
+    if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+        event.accept(ModBlocks.ENDERITE_INGOT_BLOCK);
     }
     }
 

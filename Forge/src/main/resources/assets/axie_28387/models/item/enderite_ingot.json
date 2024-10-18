@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0":"axie_28387:item/enderite"
+    "layer0":"axie_28387:item/enderite_ingot"
   }
 }
