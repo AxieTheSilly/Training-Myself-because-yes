@@ -54,6 +54,7 @@ public class Axie
     if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
         event.accept(ModItems.ENDERITE);
         event.accept(ModItems.ENDERITE_INGOT);
+        event.accept(ModItems.HEATED_ENDERITE);
     }
     if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
         event.accept(ModBlocks.ENDERITE_BLOCK);

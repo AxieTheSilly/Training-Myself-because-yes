@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.25,
+  "group": "alexandrite",
+  "ingredient": {
+    "item": "axie_28387:enderite"
+  },
+  "result": {
+    "id": "axie_28387:heated_enderite"
+  }
+}

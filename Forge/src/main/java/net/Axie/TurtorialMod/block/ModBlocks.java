@@ -20,11 +20,11 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ENDERITE_BLOCK = registerBlock("enderite_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(10f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .strength(7f).requiresCorrectToolForDrops().sound(SoundType.ANCIENT_DEBRIS)));
     public static final RegistryObject<Block> ENDERITE_INGOT_BLOCK = registerBlock("enderite_ingot_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(20f).requiresCorrectToolForDrops().explosionResistance(1000)
-                    .sound(SoundType.ANCIENT_DEBRIS)));
+                    .strength(6f).requiresCorrectToolForDrops().explosionResistance(1000)
+                    .sound(SoundType.NETHER_GOLD_ORE)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

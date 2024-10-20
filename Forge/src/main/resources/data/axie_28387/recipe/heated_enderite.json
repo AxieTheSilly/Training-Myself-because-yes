@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "axie_28387:heated_enderite"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "HHH",
+    "HDD",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "axie_28387:enderite_ingot"
+  }
+}

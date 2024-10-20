@@ -1,0 +1,21 @@
+{
+ "type": "axie_28387:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "axie_28387:item",
+          "name": "axie_28387:enderite_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "axie_28387:blocks/enderite_block"
+}

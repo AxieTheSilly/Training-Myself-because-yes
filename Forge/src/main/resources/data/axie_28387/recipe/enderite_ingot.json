@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "axie_28387.enderite_ingot_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "enderite_ingot"
+
+  }
+}

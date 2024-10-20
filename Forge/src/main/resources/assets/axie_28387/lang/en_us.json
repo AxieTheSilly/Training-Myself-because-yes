@@ -1,8 +1,10 @@
 {
   "item.axie_28387.enderite": "Enderite Scrap",
   "item.axie_28387.enderite_ingot": "Enderite Ingot",
+  "item.axie_28387.heated_enderite": "Heated Enderite Scrap",
 
   "block.axie_28387.enderite_block": "Dragon Debris",
   "block.axie_28387.enderite_ingot_block": "Enderite Block",
+
   "creativetab.Axie.enderite_items": "Enderite Items"
 }
